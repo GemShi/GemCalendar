@@ -17,6 +17,7 @@
 		DF9C62AF1E8E595E007EF8CC /* GemCalendarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF9C62AE1E8E595E007EF8CC /* GemCalendarUITests.m */; };
 		DF9C62BF1E8E654E007EF8CC /* DayCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DF9C62BD1E8E654E007EF8CC /* DayCell.m */; };
 		DF9C62C01E8E654E007EF8CC /* DayCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF9C62BE1E8E654E007EF8CC /* DayCell.xib */; };
+		DFB0BBF81E94D576005E8986 /* GemCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = DFB0BBF71E94D576005E8986 /* GemCalendarView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,8 @@
 		DF9C62BC1E8E654E007EF8CC /* DayCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DayCell.h; sourceTree = "<group>"; };
 		DF9C62BD1E8E654E007EF8CC /* DayCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DayCell.m; sourceTree = "<group>"; };
 		DF9C62BE1E8E654E007EF8CC /* DayCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DayCell.xib; sourceTree = "<group>"; };
+		DFB0BBF61E94D576005E8986 /* GemCalendarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GemCalendarView.h; sourceTree = "<group>"; };
+		DFB0BBF71E94D576005E8986 /* GemCalendarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GemCalendarView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				DF9C628D1E8E595E007EF8CC /* AppDelegate.m */,
 				DF9C628F1E8E595E007EF8CC /* ViewController.h */,
 				DF9C62901E8E595E007EF8CC /* ViewController.m */,
+				DFB0BBF61E94D576005E8986 /* GemCalendarView.h */,
+				DFB0BBF71E94D576005E8986 /* GemCalendarView.m */,
 				DF9C62BC1E8E654E007EF8CC /* DayCell.h */,
 				DF9C62BD1E8E654E007EF8CC /* DayCell.m */,
 				DF9C62BE1E8E654E007EF8CC /* DayCell.xib */,
@@ -215,6 +220,7 @@
 				TargetAttributes = {
 					DF9C62851E8E595E007EF8CC = {
 						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = HFH94256TV;
 						ProvisioningStyle = Automatic;
 					};
 					DF9C629E1E8E595E007EF8CC = {
@@ -286,6 +292,7 @@
 				DF9C628E1E8E595E007EF8CC /* AppDelegate.m in Sources */,
 				DF9C62BF1E8E654E007EF8CC /* DayCell.m in Sources */,
 				DF9C628B1E8E595E007EF8CC /* main.m in Sources */,
+				DFB0BBF81E94D576005E8986 /* GemCalendarView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,7 +443,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HFH94256TV;
 				INFOPLIST_FILE = GemCalendar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Apple.GemCalendar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -447,7 +456,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HFH94256TV;
 				INFOPLIST_FILE = GemCalendar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Apple.GemCalendar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -519,6 +530,7 @@
 				DF9C62B51E8E595E007EF8CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DF9C62B61E8E595E007EF8CC /* Build configuration list for PBXNativeTarget "GemCalendarTests" */ = {
 			isa = XCConfigurationList;
@@ -527,6 +539,7 @@
 				DF9C62B81E8E595E007EF8CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DF9C62B91E8E595E007EF8CC /* Build configuration list for PBXNativeTarget "GemCalendarUITests" */ = {
 			isa = XCConfigurationList;
@@ -535,6 +548,7 @@
 				DF9C62BB1E8E595E007EF8CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
