@@ -15,6 +15,8 @@
 		DF9C62991E8E595E007EF8CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF9C62971E8E595E007EF8CC /* LaunchScreen.storyboard */; };
 		DF9C62A41E8E595E007EF8CC /* GemCalendarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF9C62A31E8E595E007EF8CC /* GemCalendarTests.m */; };
 		DF9C62AF1E8E595E007EF8CC /* GemCalendarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF9C62AE1E8E595E007EF8CC /* GemCalendarUITests.m */; };
+		DF9C62BF1E8E654E007EF8CC /* DayCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DF9C62BD1E8E654E007EF8CC /* DayCell.m */; };
+		DF9C62C01E8E654E007EF8CC /* DayCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF9C62BE1E8E654E007EF8CC /* DayCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		DF9C62AA1E8E595E007EF8CC /* GemCalendarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GemCalendarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF9C62AE1E8E595E007EF8CC /* GemCalendarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GemCalendarUITests.m; sourceTree = "<group>"; };
 		DF9C62B01E8E595E007EF8CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF9C62BC1E8E654E007EF8CC /* DayCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DayCell.h; sourceTree = "<group>"; };
+		DF9C62BD1E8E654E007EF8CC /* DayCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DayCell.m; sourceTree = "<group>"; };
+		DF9C62BE1E8E654E007EF8CC /* DayCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DayCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +110,9 @@
 				DF9C628D1E8E595E007EF8CC /* AppDelegate.m */,
 				DF9C628F1E8E595E007EF8CC /* ViewController.h */,
 				DF9C62901E8E595E007EF8CC /* ViewController.m */,
+				DF9C62BC1E8E654E007EF8CC /* DayCell.h */,
+				DF9C62BD1E8E654E007EF8CC /* DayCell.m */,
+				DF9C62BE1E8E654E007EF8CC /* DayCell.xib */,
 				DF9C62921E8E595E007EF8CC /* Main.storyboard */,
 				DF9C62951E8E595E007EF8CC /* Assets.xcassets */,
 				DF9C62971E8E595E007EF8CC /* LaunchScreen.storyboard */,
@@ -248,6 +256,7 @@
 			files = (
 				DF9C62991E8E595E007EF8CC /* LaunchScreen.storyboard in Resources */,
 				DF9C62961E8E595E007EF8CC /* Assets.xcassets in Resources */,
+				DF9C62C01E8E654E007EF8CC /* DayCell.xib in Resources */,
 				DF9C62941E8E595E007EF8CC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,6 +284,7 @@
 			files = (
 				DF9C62911E8E595E007EF8CC /* ViewController.m in Sources */,
 				DF9C628E1E8E595E007EF8CC /* AppDelegate.m in Sources */,
+				DF9C62BF1E8E654E007EF8CC /* DayCell.m in Sources */,
 				DF9C628B1E8E595E007EF8CC /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
